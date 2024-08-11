@@ -1,0 +1,111 @@
+{
+  "musics": [
+    {
+      "id": 1,
+      "path": "LiSA - 紅蓮華.wav",
+      "name": "LiSA - 紅蓮華",
+      "cover": "/cover/红莲华-LiSA.jpg",
+      "singer": "LISA"
+    },
+    {
+      "id": 2,
+      "path": "不为谁而作的歌-林俊杰.lrc",
+      "name": "不为谁而作的歌-林俊杰",
+      "cover": "/cover/可惜没如果.webp",
+      "singer": "林俊杰"
+    },
+    {
+      "id": 3,
+      "path": "光年之外-G.E.M.邓紫棋.flac",
+      "name": "光年之外-G.E.M.邓紫棋",
+      "cover": "/cover/光年之外-G.E.M.邓紫棋.webp",
+      "singer": "邓紫棋"
+    },
+    {
+      "id": 4,
+      "path": "可惜没如果-林俊杰.320.mp3",
+      "name": "可惜没如果-林俊杰.320",
+      "cover": "/cover/可惜没如果.webp",
+      "singer": "林俊杰"
+    },
+    {
+      "id": 5,
+      "path": "告白气球--周杰伦.wav",
+      "name": "告白气球--周杰伦",
+      "cover": "/cover/告白气球.jpg",
+      "singer": "周杰伦"
+    },
+    {
+      "id": 6,
+      "path": "周深 - 铃芽之旅.mp3",
+      "name": "周深 - 铃芽之旅",
+      "cover": "/cover/铃芽之旅-周深.jpg",
+      "singer": "周深"
+    },
+    {
+      "id": 7,
+      "path": "花澤香菜 - 恋爱循环(恋愛サーキュレーション).mp3",
+      "name": "花澤香菜 - 恋爱循环(恋愛サーキュレーション)",
+      "cover": "/cover/恋爱循环-花泽香菜.jpg",
+      "singer": "花澤香菜"
+    },
+    {
+      "id": 8,
+      "path": "a-birthday-to-remember-201324.mp3",
+      "name": "a-birthday-to-remember",
+      "cover": "/cover/A Birthday to Remember.jpg",
+      "singer": "Lifeisnurul"
+    },
+    {
+      "id": 9,
+      "path": "whip-afro-dancehall-music-110235 - prazkhanal.mp3",
+      "name": "whip-afro-dancehall-music",
+      "cover": "/cover/Whip Afro Dancehall Music.webp",
+      "singer": "prazkhanal"
+    }
+  ],
+  "playlist": [
+    {
+      "id": 1,
+      "cover": "/cover/playlist/japan-flower-spring-blossom-cherry-blossom-plant-1593208-pxhere.com.jpg",
+      "name": "林俊杰经典曲目",
+      "musicIds": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "cover": "/cover/playlist/japan-flower-spring-blossom-cherry-blossom-plant-1593208-pxhere.com.jpg",
+      "name": "周杰伦经典曲目",
+      "musicIds": [
+        5
+      ]
+    },
+    {
+      "id": 3,
+      "cover": "/cover/playlist/japan-flower-spring-blossom-cherry-blossom-plant-1593208-pxhere.com.jpg",
+      "name": "周深经典曲目",
+      "musicIds": [
+        6
+      ]
+    },
+    {
+      "id": 4,
+      "cover": "/cover/playlist/japan-flower-spring-blossom-cherry-blossom-plant-1593208-pxhere.com.jpg",
+      "name": "acg经典曲目",
+      "musicIds": [
+        1,
+        7
+      ]
+    },
+    {
+      "id": 5,
+      "cover": "/cover/playlist/music-people-wood-guitar-acoustic-guitar-jeans-965005-pxhere.com.jpg",
+      "name": "欧美曲目",
+      "musicIds": [
+        8
+      ]
+    }
+  ]
+}
