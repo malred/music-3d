@@ -1,0 +1,42 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+/public/music/
+/public/cover/playlist/japan-flower-spring-blossom-cherry-blossom-plant-1593208-pxhere.com.jpg
+/public/cover/playlist/music-people-wood-guitar-acoustic-guitar-jeans-965005-pxhere.com.jpg
+/public/cover/A Birthday to Remember.jpg
+/public/cover/Whip Afro Dancehall Music.webp
+/public/cover/光年之外-G.E.M.邓紫棋.webp
+/public/cover/可惜没如果.webp
+/public/cover/告白气球.jpg
+/public/cover/多远都要在一起.webp
+/public/cover/大鱼-周深.jpg
+/public/cover/恋爱循环-花泽香菜.jpg
+/public/cover/江南.webp
+/public/cover/烟花易冷-周深.jpg
+/public/cover/甜甜的-周杰伦.jpg
+/public/cover/红莲华-LiSA.jpg
+/public/cover/起风了-周深.jpg
+/public/cover/铃芽之旅-周深.jpg
+/public/多远都要在一起-G.E.M.邓紫棋.flac
