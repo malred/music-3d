@@ -27,7 +27,8 @@ export default function CommunityPage() {
                     {[1, 2, 3, 4, 5].map((idx) =>
                         <div
                             // ref={commentRef}
-                            className={'bg-violet-50 p-4 rounded-lg '}>
+                            className={`${theme==='dark'?'bg-fuchsia-950':'bg-violet-50'}
+                              p-4 rounded-lg `}>
                             <Comment content={'prazkhanal 今天分享了歌曲: Whip Afro Dancehall Music'}/>
                         </div>
                     )}

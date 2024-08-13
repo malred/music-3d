@@ -27,8 +27,12 @@ const NavBar = () => {
                     </div>
                 </Link>
                 <div className={'items-center flex flex-row gap-8'}>
-                    <span className={'text-xl cursor-pointer'}>音乐馆</span>
-                    <span className={'text-xl cursor-pointer'}>榜单</span>
+                    <Link to={'/musics'}>
+                        <span className={'text-xl cursor-pointer'}>音乐馆</span>
+                    </Link>
+                    <Link to={'/musics/rankings'}>
+                        <span className={'text-xl cursor-pointer'}>榜单</span>
+                    </Link>
                     <Link to={'/community'}>
                         <span className={'text-xl cursor-pointer'}>社区</span>
                     </Link>

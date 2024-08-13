@@ -113,7 +113,7 @@ export default function SearchPage() {
                     } mt-12 results w-full flex flex-col justify-between items-center`}>
                     {musics && musics.map(m =>
                         (<div
-                                key={m.id} className={'mt-4 w-[60%]'}>
+                                key={m.id} className={'mt-4 w-[55%]'}>
                                 <div
                                     className={`shadow-xl ${'items'} mt-4 p-2 h-24 rounded-lg flex flex-row justify-between items-center`}>
 

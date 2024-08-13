@@ -7,7 +7,7 @@ import {useTheme} from "next-themes";
 import Gsap from "gsap";
 
 export default function Comment(props) {
-    const {content, publishTime, likeCnt, commentCnt, shareCnt, avator, ...rest} = props;
+    const {name, content, publishTime, likeCnt, commentCnt, shareCnt, avator, ...rest} = props;
     const {theme, setTheme} = useTheme('dark')
 
     const commentTopDivs = Gsap.utils.toArray('.comment-top');
@@ -36,9 +36,11 @@ export default function Comment(props) {
     // const commentBottomDivs = Gsap.utils.toArray('.comment-bottom');
 
     return (
-        <div className={'flex flex-col gap-3 items-start'} {...rest}>
+        <div className={`flex flex-col gap-3 items-start
+        ${theme === 'dark' ? '' : ''}`} {...rest}>
             <div
                 className={'w-[800px] comment-top m-1 1border-b-2 flex flex-row gap-3 items-center'}>
+                {/*头像*/}
                 <div className={`${theme === 'dark' ? 'bg-black' : 'bg-white'} rounded-full
                 w-12 h-12 cursor-pointer`}>
                     <Canvas
@@ -58,8 +60,10 @@ export default function Comment(props) {
                         <Preload all/>
                     </Canvas>
                 </div>
-                <div className={'comment-date'}>
-                    {publishTime ? publishTime : '2024-12-1'}
+                {/*发布时间*/}
+                <div className={'comment-date justify-center flex flex-col'}>
+                    <span className={'font-bold'}>{name ? name : 'username'}</span>
+                    <span className={'text-sm'}>{publishTime ? publishTime : '2024-12-1'}</span>
                 </div>
             </div>
             <div className={'comment-bottom mx-1 flex flex-col gap-3'}>

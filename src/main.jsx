@@ -13,6 +13,10 @@ import SearchPage from "@/pages/SearchPage.jsx";
 import ProfilePage from "@/pages/ProfilePage.jsx";
 import IndexPage from "@/pages/IndexPage.jsx";
 import CommunityPage from "@/pages/CommunityPage.jsx";
+import MusicsShowPage from "@/pages/MusicsShowPage.jsx";
+import RankingsPage from "@/pages/RankingsPage.jsx";
+import MusicsIndexPage from "@/pages/MusicsIndexPage.jsx";
+import PlaylistDetailPage from "@/pages/PlaylistDetailPage.jsx";
 
 const router = createBrowserRouter([
     {
@@ -36,11 +40,30 @@ const router = createBrowserRouter([
                 path: "profile",
                 element: <ProfilePage/>,
             },
+        ],
+    },
+    {
+        path: "musics",
+        element: <MusicsIndexPage/>,
+        errorElement: <ErrorPage/>,
+        children: [
             {
-                path: "/musics/:id",
+                path: '',
+                element: <MusicsShowPage/>
+            },
+            {
+                path: ":id",
                 element: <MusicPage/>,
             },
-        ],
+            {
+                path: 'rankings',
+                element: <RankingsPage/>
+            },
+            {
+                path: "list/detail/:id",
+                element: <PlaylistDetailPage/>
+            }
+        ]
     }
 ]);
 
